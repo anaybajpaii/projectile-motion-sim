@@ -1,6 +1,7 @@
 #include "Physics.h"
 #include <cmath>
 
+
 namespace Physics 
 {
 double timeOfFlight(double vy0, double y0, double gravity)
