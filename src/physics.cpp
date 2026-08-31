@@ -34,7 +34,7 @@ double velocityY(double vy0, double t, double gravity)
     double result = vy0 - (gravity * t);
     return result;
 }
-double degreesToRadians(double degrees, double PI) 
+double degreesToRadians(double degrees) 
 {
     double result = degrees * PI / 180.0;
     return result;
