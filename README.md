@@ -1,1 +1,1 @@
-# projectile-motion-sim
+# Projectile Motion Simulator
