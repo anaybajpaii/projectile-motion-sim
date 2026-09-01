@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Projectile.h"
 #include "Physics.h"
+#include "DataLogger.h"
 
 int main() 
 {
@@ -18,11 +19,13 @@ int main()
     Projectile projectile(speed, angle, height);
 
     double totalTime = projectile.flightTime();
+    DataLogger logger("data/trajectory_no_drag.csv");
 
     for (double t = 0.0; t <= totalTime; t += 0.1) 
     {
         auto [x, y] = projectile.positionAt(t);
         std::cout << t << " " << x << " " << y << "\n";
+        logger.writeRow(t, x, y);
     }
 
     return 0;
