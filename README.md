@@ -60,7 +60,7 @@ projectile-motion-sim/
 │   └── plot_trajectory.py
 ├── data/
 ├── docs/
-│   ├── physics_notes.md
+│   ├── notes.md
 │   └── screenshots/
 └── LICENSE
 ```
@@ -74,4 +74,4 @@ projectile-motion-sim/
 
 ## Documentation
 
-See [`docs/physics_notes.md`](docs/physics_notes.md) for the mathematical model, numerical integration method, assumptions, and additional physics notes.
+See [`docs/notes.md`](docs/notes.md) for the mathematical model, numerical integration method, assumptions, and additional physics notes.
